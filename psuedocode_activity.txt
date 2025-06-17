@@ -1,0 +1,22 @@
+start
+
+1. ask user "milatary or regular"
+
+if regular ask "AM or PM"
+
+then set time
+
+2. if time is equal to alarm then time should be set off
+
+if time is set off ask "snooz or stop"
+
+if snooz than add 5 to alarm
+
+if stop than alarm should stop
+ 
+3. if time is not equal to alarm 
+
+then nothing happens
+
+command stop
+
