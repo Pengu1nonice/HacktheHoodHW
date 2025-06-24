@@ -1,6 +1,6 @@
 menu = {'pizza' : 2.99, 'burger' : 3.99, 'hot dog' : 1.99, 'cheese' : 0.59, 'ice cream' : 1.49, 'churro' : 0.79, 'soda' : 0.89}
 
-# step 3
+# step 2
 def total_price(item1,item2):
     total_sum = menu[item1] + menu[item2]
     return total_sum
@@ -20,3 +20,15 @@ def inflation(item, number):
     return menu
 
 inflation('soda', 2)
+
+# step 5
+def inflation(item, number):
+ menu[item] = menu[item] / number
+ return menu
+
+# step 6
+def inflation(item, number):
+    menu [item] = menu[item] ** number
+    return menu
+ # I don't know if I did step 6 right. lol. kinda didn't know what to do. double lol
+inflation('churro', 5)
