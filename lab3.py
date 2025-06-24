@@ -31,3 +31,5 @@ print(books.values())
 print(books.get('Arnold Lobel'))
 books.pop(list(books.keys())[2])
 print(books)
+del books[list(books.keys())[0]]
+print(books)
