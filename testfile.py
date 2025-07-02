@@ -14,7 +14,14 @@ age = 15
 used_python = False
 
 ## step 5
-hobbies = ["gaming", "sleep", "traveling to my bed"]
+hobbies = [
+    "gaming",
+     "sleep",
+     "traveling to my bed"
+     ]
 
 ## step 6
-favorite_thing = {"my phone", "my tv"}
+favorite_thing = {
+    "my phone", 
+    "my tv"
+    }
