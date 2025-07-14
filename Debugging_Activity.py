@@ -55,7 +55,7 @@ print(factorial(5))
 
 # code snippet 9
 name = input("Enter your name: ")
-if name == "Alice" or "Bob": # always evaluate to true
+if name == "Alice" or name == "Bob": # always evaluate to true
     print("Hello, " + name)
 else:
     print("Hello, stranger!")
@@ -65,7 +65,7 @@ def divide_numbers(x, y):
     if y == 0:
         return "can't devide by zero!"
     else:
-        result = x / y
+        result = x + y
         return result
 num1 = 10
 num2 = 0 # can't dived by zero
