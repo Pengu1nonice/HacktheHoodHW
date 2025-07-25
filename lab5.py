@@ -42,5 +42,5 @@ def generate_multiple_powers(powers):
     for i in powers:
      print(i)
 
-     power_super = ["teleport", "flying", "speed", "strength"]
-     generate_multiple_powers(power_super)
+    power_super = ["teleport", "flying", "speed", "strength"]
+    generate_multiple_powers(power_super)
